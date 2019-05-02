@@ -1,12 +1,12 @@
 {
-    "enabled": false,
-    "coin": "litecoin.json",
+    "enabled": true,
+    "coin": "TIMcoin.json",
 
-    "address": "n4jSe18kZMCdGcZqaYprShXW6EH1wivUK1",
+    "address": "TNhGAcgdPxzmByE1pp7Auzbwjdz9ySBec1",
 
     "rewardRecipients": {
-        "n37vuNFkXfk15uFnGoVyHZ6PYQxppD3QqK": 1.5,
-        "22851477d63a085dbc2398c8430af1c09e7343f6": 0.1
+        "TG41v5tNDxeiwDnq9x22sjebctm2Y4AhMw": 1.5,
+        "TS6kBFjRzMp6J64nGtfZFgeWgoyAWmUUyC": 0.1
     },
 
     "paymentProcessing": {
@@ -15,7 +15,7 @@
         "minimumPayment": 70,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 19332,
+            "port": 8062,
             "user": "testuser",
             "password": "testpass"
         }
@@ -43,7 +43,7 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 19332,
+            "port": 8062,
             "user": "testuser",
             "password": "testpass"
         }
@@ -52,7 +52,7 @@
     "p2p": {
         "enabled": true,
         "host": "127.0.0.1",
-        "port": 19333,
+        "port": 8062,
         "disableTransactions": true
     },
 
@@ -62,7 +62,7 @@
         "port": 3306,
         "user": "me",
         "password": "mypass",
-        "database": "ltc",
+        "database": "TIM",
         "checkPassword": true,
         "autoCreateWorker": false
     }
