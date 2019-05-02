@@ -1,0 +1,6 @@
+{
+    "name": "TIMcoin",
+    "symbol": "TIM",
+    "algorithm": "quark",
+    "mposDiffMultiplier": 256
+}
