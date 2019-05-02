@@ -31,9 +31,9 @@
 
     "website": {
         "enabled": true,
-        "host": "209.250.246.187",
+        "host": "45.63.43.6",
         "port": 80,
-        "stratumHost": "209.250.246.187",
+        "stratumHost": "45.63.43.6",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
